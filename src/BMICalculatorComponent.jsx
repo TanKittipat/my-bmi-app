@@ -22,7 +22,10 @@ function BMICalculatorComponent() {
 
   return (
     <div className="p-6 bg-green-100 min-h-screen flex flex-col items-center justify-center">
-      <h1 className="text-3xl font-bold mb-6">BMI Calculator</h1>
+      <h1 className="text-3xl font-bold mb-4">BMI Calculator</h1>
+      <h3 className="text-2xl text-emerald-900 font-semibold mb-6">
+        654259023
+      </h3>
       <div className="mb-4 w-full max-w-xs">
         <label className="block text-sm font-medium text-gray-700">
           Weight (kg):
